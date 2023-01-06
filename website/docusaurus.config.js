@@ -68,7 +68,7 @@ const config = {
   title: 'PersonalNotes',
   tagline: 'Build optimized websites quickly, focus on your content',
   organizationName: 'facebook',
-  projectName: 'personalNotes',
+  projectName: 'personalNotes.io',
   baseUrl,
   baseUrlIssueBanner: true,
   url: 'https://personalNotes.io',
