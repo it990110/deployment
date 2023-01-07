@@ -68,7 +68,7 @@ const config = {
   title: 'PersonalNotes',
   tagline: 'Build optimized websites quickly, focus on your content',
   organizationName: 'it990110',
-  projectName: 'personalnotes.io',
+  projectName: 'personalnotes.github.io',
   baseUrl,
   baseUrlIssueBanner: true,
   url: 'https://personalnotes.io',
@@ -166,7 +166,7 @@ const config = {
           if (locale !== 'en') {
             return `https://crowdin.com/project/docusaurus-v2/${locale}`;
           }
-          return `https://github.com/it990110/personalnotes.io/edit/main/website/${versionDocsDirPath}/${docPath}`;
+          return `https://github.com/it990110/personalnotes.github.io/edit/main/website/${versionDocsDirPath}/${docPath}`;
         },
         remarkPlugins: [npm2yarn],
         editCurrentVersion: true,
@@ -298,7 +298,7 @@ const config = {
             // We want users to submit doc updates to the upstream/next version!
             // Otherwise we risk losing the update on the next release.
             const nextVersionDocsDirPath = 'docs';
-            return `https://github.com/it990110/personalnotes.io/edit/main/website/${nextVersionDocsDirPath}/${docPath}`;
+            return `https://github.com/it990110/personalnotes.github.io/edit/main/website/${nextVersionDocsDirPath}/${docPath}`;
           },
           admonitions: {
             keywords: ['my-custom-admonition'],
@@ -335,7 +335,7 @@ const config = {
             if (locale !== 'en') {
               return `https://crowdin.com/project/docusaurus-v2/${locale}`;
             }
-            return `https://github.com/it990110/personalnotes.io/edit/main/website/${blogDirPath}/${blogPath}`;
+            return `https://github.com/it990110/personalnotes.github.io/edit/main/website/${blogDirPath}/${blogPath}`;
           },
           postsPerPage: 5,
           feedOptions: {
@@ -512,13 +512,13 @@ const config = {
                 value: '<hr style="margin: 0.3rem 0;">',
               },
               {
-                href: 'https://github.com/it990110/personalnotes.io/issues/3526',
+                href: 'https://github.com/it990110/personalnotes.github.io/issues/3526',
                 label: 'Help Us Translate',
               },
             ],
           },
           {
-            href: 'https://github.com/it990110/personalnotes.io',
+            href: 'https://github.com/it990110/personalnotes.github.io',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -579,7 +579,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/it990110/personalnotes.io',
+                href: 'https://github.com/it990110/personalnotes.github.io',
               },
               {
                 label: 'Twitter',
