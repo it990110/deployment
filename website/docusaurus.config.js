@@ -71,7 +71,7 @@ const config = {
   projectName: 'personalnotes.github.io',
   baseUrl,
   baseUrlIssueBanner: true,
-  url: 'https://personalnotes.io',
+  url: 'https://personalnotes.github.io',
   // Dogfood both settings:
   // - force trailing slashes for deploy previews
   // - avoid trailing slashes in prod
